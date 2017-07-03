@@ -1,0 +1,72 @@
+
+
+
+@import url('https://fonts.googleapis.com/css?family=Pavanam');
+@import url('https://fonts.googleapis.com/css?family=Alef');
+
+
+p {
+	font-family: 'Pavanam', sans-serif;
+}
+
+p:last-child {font-family: 'Alef', sans-serif; 
+
+}
+
+
+
+h1,h2 {
+	
+	background-color:#222222
+}
+
+h2 span {
+	
+	color:red
+}
+div p:last-child {
+	
+	border:solid 1px black;
+	font-family: sans-serif;
+}
+
+article p:last-child { 
+font-family: sans-serif;
+}
+
+.leading p { 
+font-family: sans-serif;
+} 
+
+section article  { 
+
+border:dashed 3px red;
+background-color:green;
+font-family: sans-serif;
+}
+
+aside {
+	
+	background: rgba(123, 0, 30, 0.5);
+}
+
+aside article  {
+	
+	border:dotted 3px red;
+	background-color:yellow;
+	font-family: sans-serif; 	
+	
+}
+
+
+
+.leading span {
+	
+font-weight:bold
+}
+
+.leading p span {
+	
+font-weight:normal;
+}
+
